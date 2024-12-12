@@ -69,6 +69,14 @@
             color: red;
             margin-top: 20px;
         }
+
+        .arvore-natal {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            width: 100px;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -79,6 +87,7 @@
         <button onclick="baixarImagem()">Baixar Imagem</button>
         <div id="cartao" class="cartao"></div>
         <div id="mensagemErro" class="mensagem-erro"></div>
+        <img src="arvore-natal.jpg" alt="Árvore de Natal" class="arvore-natal">
     </div>
     <script>
         const imagensCartoes = {
